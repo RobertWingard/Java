@@ -32,5 +32,3 @@ public class CafeUtil {
             System.out.println (customers);
     }
 }
-
-new change

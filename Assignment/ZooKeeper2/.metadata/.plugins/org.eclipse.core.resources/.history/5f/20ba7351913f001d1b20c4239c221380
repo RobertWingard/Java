@@ -1,0 +1,14 @@
+package com.robert.zookeeper;
+
+public class ZooKeeperApplication {
+
+	public static void main(String[] args) {
+		Mammel ZooKeeper = new Mammel();
+			ZooKeeper.DisplayEnergy();
+			ZooKeeper.getEatBananas();
+			ZooKeeper.getClimb();
+			ZooKeeper.getThrowSomething();
+
+	}
+
+}

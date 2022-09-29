@@ -1,0 +1,47 @@
+package com.robert.zookeeper;
+
+public class Mammel {
+	private int displayEnergy;
+	private String eatBananas;
+	private String climb;
+	private String throwSomething;
+	
+	
+	
+	
+	
+	// Method
+	public double getdisplayEnergy() {
+		System.out.println("This is the Energy: " +  this.displayEnergy);
+		return this.displayEnergy;		
+	}
+	
+	
+	
+	
+	//Getters and Setters
+	public double DisplayEnergy() {
+		
+	}
+	public void setDisplayEnergy(int displayEnergy) {
+		this.displayEnergy = displayEnergy;
+	}
+	public String getEatBananas() {
+		return eatBananas;
+	}
+	public void setEatBananas(String eatBananas) {
+		this.eatBananas = eatBananas;
+	}
+	public String getClimb() {
+		return climb;
+	}
+	public void setClimb(String climb) {
+		this.climb = climb;
+	}
+	public String getThrowSomething() {
+		return throwSomething;
+	}
+	public void setThrowSomething(String throwSomething) {
+		this.throwSomething = throwSomething;
+	}
+}

@@ -1,0 +1,41 @@
+package com.robert.zookeeper;
+
+public class Gorilla extends Mammal {
+
+//	private String eatBananas;
+//	private String climb;
+//	private String throwSomething;
+	public Gorilla() {
+		super();
+	}
+	
+	public Gorilla(int energy) {
+		super();
+		System.out.println("This is the energy of the gorilla" + this.getDisplayEnergy());
+	}
+	
+	
+//	public String getEatBananas() {
+//		return eatBananas;
+//	}
+//	public void setEatBananas(String eatBananas) {
+//		this.eatBananas = eatBananas;
+//	}
+//	public String getClimb() {
+//		return climb;
+//	}
+//	public void setClimb(String climb) {
+//		this.climb = climb;
+//	}
+//	public String getThrowSomething() {
+//		return throwSomething;
+//	}
+//	public void setThrowSomething(String throwSomething) {
+//		this.throwSomething = throwSomething;
+//	}
+	
+	
+}
+
+
+	

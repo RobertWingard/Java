@@ -1,0 +1,18 @@
+package com.robert.zookeeper;
+
+public class ZooKeeperApplication {
+
+	public static void main(String[] args) {
+		Mammal ZooKeeper = new Mammal(100);
+		Gorilla Monkey1 = new Gorilla(10);
+			ZooKeeper.displayEnergy();
+			ZooKeeper.getEatBananas();
+			ZooKeeper.getClimb();
+			Monkey1.displayEnergy();
+			Monkey1.throwSomething("apple");
+			Monkey1.eatBananas("banana");
+			
+
+	}
+
+}

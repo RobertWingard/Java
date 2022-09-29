@@ -1,0 +1,61 @@
+package com.robert.zookeeper;
+
+public class Mammal {
+	protected int displayEnergy;
+	protected String eatBananas;
+	protected String climb;
+
+	
+	
+	
+	
+	
+	// Method
+	public double displayEnergy() {
+		System.out.println("This is the Energy of Mammal: " +  this.displayEnergy);
+		return this.displayEnergy;		
+	}
+	
+	public String throwSomething(String throwSomething) {
+		System.out.println("I just threw an: " + throwSomething + " and your energy decreased by 5");
+		return throwSomething;
+	}
+	// constructor
+	
+	public  Mammal() {}
+		
+	public Mammal(int energy) {
+		this.setDisplayEnergy(energy);
+	}
+	
+	
+	
+
+	
+
+	//Getters and Setters
+	public double DisplayEnergy() {
+		return getDisplayEnergy();
+		
+	}
+	public void setDisplayEnergy(int displayEnergy) {
+		this.displayEnergy = displayEnergy;
+	}
+	public String getEatBananas() {
+		return eatBananas;
+	}
+	public void setEatBananas(String eatBananas) {
+		this.eatBananas = eatBananas;
+	}
+	public String getClimb() {
+		return climb;
+	}
+	public void setClimb(String climb) {
+		this.climb = climb;
+	}
+
+
+	public int getDisplayEnergy() {
+		return displayEnergy;
+	}
+}

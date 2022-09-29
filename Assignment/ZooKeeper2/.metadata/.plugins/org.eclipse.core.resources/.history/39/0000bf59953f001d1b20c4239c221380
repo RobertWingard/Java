@@ -1,0 +1,8 @@
+package com.robert.zookeeper;
+
+public class Gorilla {
+
+	private String eatBananas;
+	private String climb;
+	private String throwSomething;
+}

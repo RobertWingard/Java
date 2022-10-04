@@ -18,4 +18,7 @@
     	<h2>In <c:out value="${showNumber}"/> years you will live in <c:out value="${showCity}"/> with <c:out value="${showPerson}"/> as your roommate, <c:out value="${showHobby}"/> for a living. The next time you see a <c:out value="${showThing}"/>, you will have good luck. <c:out value="${showText}"/></h2>
     </div>
     <p class="link"><a href="/omikuji">Try again</a></p>
+    <div class="text-center">
+    <img src="/resources/img/image.png"/>;
+    </div>
 </body>

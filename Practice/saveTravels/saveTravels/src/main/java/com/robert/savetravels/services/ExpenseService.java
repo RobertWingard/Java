@@ -23,7 +23,7 @@ public class ExpenseService {
     public Expense createExpense(Expense expense) {
         return expenseRepository.save(expense);
     }
-    // retrieves a whatever
+    // retrieves one whatever
     public Expense findExpense(Long id) {
         Optional<Expense> optionalBook = expenseRepository.findById(id);
         if(optionalBook.isPresent()) {
@@ -38,7 +38,7 @@ public class ExpenseService {
     	return expenseRepository.save(expense);
     }
     // Deletes one by id
-    public void deleteBook(Long id) {
+    public void deleteExpense(Long id) {
     	expenseRepository.deleteById(id);
     }
 }

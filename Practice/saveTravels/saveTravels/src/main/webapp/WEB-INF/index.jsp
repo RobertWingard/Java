@@ -17,6 +17,7 @@
 		<th>Expense</th>
 		<th>Vendor</th>
 		<th>Amount</th>
+		<th>Actions</th>
 	</tr>
 </thead>
 <tbody>
@@ -24,14 +25,16 @@
 		<tr>
 			<td><c:out value="${expense.name}"></c:out></td>
 			<td><c:out value="${expense.vendor}"></c:out></td>
-			<td><c:out value="${expense.amount}"></c:out></td>
+			<td><c:out value=" $ ${expense.amount}"></c:out></td>
+			<td><a href="/expenses/${expense.id}/edit">Edit</a></td>
 		</tr>
 	</c:forEach>
 </tbody>		
 </table>
 <h1>Add a Expense</h1>
 <form:form action="/expenses" method="post" modelAttribute="expense">
-
+	
+	
 	<form:label path="name">Expense Name: </form:label>
 	<form:errors path="name"/>
 	<form:input path="name"/>

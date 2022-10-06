@@ -5,10 +5,12 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>books</title>
+<title>Insert title here</title>
 </head>
 <body>
-<h1>Test</h1>
-
+<h1><c:out value="${book.title}"/></h1>
+<p>Description: <c:out value= "${book.description}"/></p>
+<p>Language: <c:out value= "${book.language}"/></p>
+<p>Number of Pages: <c:out value= "${book.numberOfPages}"/></p>
 </body>
 </html>
